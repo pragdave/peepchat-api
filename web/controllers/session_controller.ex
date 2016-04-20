@@ -3,7 +3,7 @@ defmodule Peepchat.SessionController do
 
   def index(conn, _params) do
     conn
-    |> json(%{status: "Ok"})
+    |> json(%{deploy: "Yup", status: "Ok"})
   end
 end
 
