@@ -9,5 +9,5 @@ config :peepchat, Peepchat.Endpoint,
 # Configure your database
 config :peepchat, Peepchat.Repo,
   adapter: Ecto.Adapters.Postgres,
-  url: "postgres://jsgnsbfqtibvbo:O_a0WO9p2WJZgld2HFPummtnzQ@ec2-54-235-94-236.compute-1.amazonaws.com:5432/dc4ki421eqvgne"
+  url: "postgres://jsgnsbfqtibvbo:O_a0WO9p2WJZgld2HFPummtnzQ@ec2-54-235-94-236.compute-1.amazonaws.com:5432/dc4ki421eqvgne",
   pool_size: 20
