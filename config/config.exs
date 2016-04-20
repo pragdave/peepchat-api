@@ -7,7 +7,8 @@ use Mix.Config
 
 # Configures the endpoint
 config :peepchat, Peepchat.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "afternoon-ravine-93158.herokuapp.com", port: 443],
+  force_ssl: [rewrite_on: [:x_forwarded_proto]],
   root: Path.dirname(__DIR__),
   secret_key_base: "BTvLIoyLJEZ2HK/FC/hQuOMWJtWcozphYWHYd9TzBZdD5f81+eJttpv8PCJz6mEr",
   render_errors: [accepts: ~w(json)],
